@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>UCC Det Udom</title>
+</head>
+<body>
+    <section class="showcase">
+        
+        <header>
+            <div class="logo"><img src="img/logo2.png" width="100px"></div>
+            <div class="toggle"></div>
+
+        </header>   
+
+       <video src="img/Thunderstorm - 10745.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h1>UCC Det Udom</h1>
+            <h2>คริสตจักรแห่งพระบัญชา เดชอุดม </h2>
+            <p>May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound
+            in hope.<br />ขอพระเจ้าแห่งความหวังทรงโปรดให้ท่านบริบูรณ์ด้วยความชื่นชมยินดี และสันติสุขในความเชื่อ
+            เพื่อท่านจะได้เปี่ยมด้วยความหวังโดยฤทธิ์เดชแห่งพระวิญญาณบริสุทธิ์<br />โรม 15:13 TH1971</p>
+            <a href="http://www.ucc-detudomchurch.com/homepage/">เข้าสู่เว็บไซต์</a>
+        </div>
+
+        
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="http://www.ucc-detudomchurch.com/homepage/">Home</a></li>
+            <li><a href="http://www.ucc-detudomchurch.com/homepage/family/">Family</a></li>
+            <li><a href="http://www.ucc-detudomchurch.com/homepage/post/">Post</a></li>
+            <li><a href="http://www.ucc-detudomchurch.com/homepage/gallery/">Gallery</a></li>
+            <li><a href="http://www.ucc-detudomchurch.com/homepage/contact/">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>
